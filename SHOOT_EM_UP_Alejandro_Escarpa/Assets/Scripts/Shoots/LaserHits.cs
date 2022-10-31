@@ -8,10 +8,10 @@ public class LaserHits : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        Instantiate(hitFbx, collision.transform);
+
         if (collision.collider.CompareTag("Enemy"))
         {
-            Debug.Log("Hit");
-            Instantiate(hitFbx, collision.transform);
             Destroy(gameObject);
         }
     }
