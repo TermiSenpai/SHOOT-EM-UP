@@ -10,8 +10,11 @@ public class PlayerShooting : MonoBehaviour
     [SerializeField] GameObject laserPrefab;
     [SerializeField] Transform shootPos;
 
+    PlayerFbxPlayer sound;
+
     private void Start()
     {
+        sound = GetComponent<PlayerFbxPlayer>();
         canShoot = true;
     }
 
@@ -19,6 +22,7 @@ public class PlayerShooting : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Mouse0) && canShoot)
         {
+            sound.PlayShootSound();
             Instantiate(laserPrefab, shootPos.position, Quaternion.identity);
             StartCoroutine(ShootDelay());
         }
