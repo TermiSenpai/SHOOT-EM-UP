@@ -44,3 +44,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: DeepBackground
+    uniqueID: 2064918927
+    locked: 0
+  - name: MiddleBackground
+    uniqueID: 488822239
+    locked: 0
+  - name: Background
+    uniqueID: 3945430521
+    locked: 0
+  - name: Laser
+    uniqueID: 1170610795
+    locked: 0
+  - name: Enemy
+    uniqueID: 2996319205
+    locked: 0
+  - name: Player
+    uniqueID: 207903059
+    locked: 0
