@@ -8,6 +8,6 @@ public class EnemyMoveLeft : MonoBehaviour
 
     private void FixedUpdate()
     {
-        transform.Translate(Vector3.left * Time.deltaTime * speed, Space.World) ;
+        transform.Translate(Vector3.left * Time.deltaTime * speed, Space.World);
     }
 }
