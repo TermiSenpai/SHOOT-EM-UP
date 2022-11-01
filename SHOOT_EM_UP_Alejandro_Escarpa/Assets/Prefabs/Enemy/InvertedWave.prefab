@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8325533333933176082}
   m_Layer: 0
-  m_Name: EnemyWave
+  m_Name: InvertedWave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,6 +91,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: inverted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: amplitude
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: frequency
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
 --- !u!4 &6705411372566809517 stripped
@@ -152,6 +164,18 @@ PrefabInstance:
     - target: {fileID: 2039417035130659908, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: inverted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: amplitude
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: frequency
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
@@ -215,6 +239,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: inverted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: amplitude
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: frequency
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
 --- !u!4 &8054488407858282299 stripped
@@ -277,6 +313,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: inverted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: amplitude
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: frequency
+      value: 0.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
 --- !u!4 &8054488407817760127 stripped
@@ -338,6 +386,18 @@ PrefabInstance:
     - target: {fileID: 2039417035130659908, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: inverted
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: amplitude
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: frequency
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
