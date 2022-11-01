@@ -24,11 +24,11 @@ public class PlayerShooting : MonoBehaviour
         {
             sound.PlayShootSound();
             Instantiate(laserPrefab, shootPos.position, Quaternion.identity);
-            StartCoroutine(ShootDelay());
+            StartCoroutine(ShootDelay(delay));
         }
     }
 
-    IEnumerator ShootDelay()
+    IEnumerator ShootDelay(float delay)
     {
         canShoot = false;
         yield return new WaitForSeconds(delay);
