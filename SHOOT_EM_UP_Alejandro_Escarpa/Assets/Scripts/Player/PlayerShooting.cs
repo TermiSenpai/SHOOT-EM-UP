@@ -16,6 +16,7 @@ public class PlayerShooting : MonoBehaviour
     {
         sound = GetComponent<PlayerFbxPlayer>();
         canShoot = true;
+
     }
 
     private void Update()
