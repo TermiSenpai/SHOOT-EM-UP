@@ -43,6 +43,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8325533333933176082}
     m_Modifications:
+    - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
       value: Enemy
@@ -103,6 +107,22 @@ PrefabInstance:
       propertyPath: frequency
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619917552402369091, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619917552402369091, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 8619917552402369091, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
 --- !u!4 &6705411372566809517 stripped
@@ -117,6 +137,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8325533333933176082}
     m_Modifications:
+    - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
       value: Enemy (4)
@@ -177,6 +201,10 @@ PrefabInstance:
       propertyPath: frequency
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
 --- !u!4 &8054488407671476821 stripped
@@ -191,6 +219,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8325533333933176082}
     m_Modifications:
+    - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
       value: Enemy (3)
@@ -251,6 +283,10 @@ PrefabInstance:
       propertyPath: frequency
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
 --- !u!4 &8054488407858282299 stripped
@@ -265,6 +301,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8325533333933176082}
     m_Modifications:
+    - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
       value: Enemy (2)
@@ -325,6 +365,10 @@ PrefabInstance:
       propertyPath: frequency
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
 --- !u!4 &8054488407817760127 stripped
@@ -339,6 +383,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8325533333933176082}
     m_Modifications:
+    - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: delay
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
       value: Enemy (1)
@@ -398,6 +446,10 @@ PrefabInstance:
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: frequency
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
+      propertyPath: speed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
