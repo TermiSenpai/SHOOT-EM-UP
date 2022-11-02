@@ -13,11 +13,12 @@ public class LaserHits : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Instantiate(hitFbx, collision.transform.position, Quaternion.identity, hitParent.transform);
+        Instantiate(hitFbx, collision.GetContact(0).point, Quaternion.identity, hitParent.transform);
+
+        Destroy(gameObject);
 
         if (collision.collider.CompareTag("Enemy"))
         {
-            Destroy(gameObject);
             Destroy(collision.gameObject);
         }
     }
