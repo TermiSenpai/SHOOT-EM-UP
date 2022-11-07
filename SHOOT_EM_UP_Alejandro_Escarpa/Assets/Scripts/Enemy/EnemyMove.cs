@@ -9,11 +9,21 @@ public class EnemyMove : MonoBehaviour
     [SerializeField] private float lifeTime;
 
     PlayerHealth playerHealth;
+    EnemySpawner spawner;
 
     private void Start()
     {
-        playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
-        Destroy(gameObject, lifeTime);
+        spawner = GameObject.FindGameObjectWithTag("EnemyParent").GetComponent<EnemySpawner>();
+        try
+        {
+            playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+        }
+        catch
+        {
+            spawner.SetCanSpawnEnemies(false);
+            Destroy(transform.parent.gameObject);
+        }
+        Destroy(transform.parent.gameObject, lifeTime);
     }
 
     private void FixedUpdate()

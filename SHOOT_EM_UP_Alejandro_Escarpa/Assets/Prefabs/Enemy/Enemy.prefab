@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   direction: {x: -1, y: 0, z: 0}
-  lifeTime: 9
+  lifeTime: 8
 --- !u!114 &3191586476085094992
 MonoBehaviour:
   m_ObjectHideFlags: 0
