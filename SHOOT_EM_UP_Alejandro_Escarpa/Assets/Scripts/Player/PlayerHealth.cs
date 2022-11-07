@@ -12,22 +12,18 @@ public class PlayerHealth : MonoBehaviour
         health = maxHealth;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.CompareTag("Laser") || collision.collider.CompareTag("Enemy"))
-        {
-            health--;
-            Destroy(collision.gameObject);
-            CheckHealth();
-        }
-    }
-
     private void CheckHealth()
     {
-        if(health <= 0)
+        if (health <= 0)
         {
             Destroy(gameObject);
         }
+    }
+
+    public void loseHealth()
+    {
+        health--;
+        CheckHealth();
     }
 
 }

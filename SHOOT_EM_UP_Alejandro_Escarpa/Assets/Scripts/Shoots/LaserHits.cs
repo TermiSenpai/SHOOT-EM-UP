@@ -16,10 +16,5 @@ public class LaserHits : MonoBehaviour
         Instantiate(hitFbx, collision.GetContact(0).point, Quaternion.identity, hitParent.transform);
 
         Destroy(gameObject);
-
-        if (collision.collider.CompareTag("Enemy"))
-        {
-            Destroy(collision.gameObject);
-        }
     }
 }

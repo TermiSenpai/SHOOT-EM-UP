@@ -10,22 +10,15 @@ public class EnemySpawner : MonoBehaviour
 
     private void Start()
     {
-        InvokeRepeating("SpawnEnemies", delay, delay);
+        InvokeRepeating("SpawnEnemies", 0, delay);
     }
 
     private void SpawnEnemies()
     {
         int randomEnemy = randomInt(0, enemies.Length);
-        Vector2 spawnPos = new Vector2(15, 0);
+        Vector2 spawnPos = new Vector2(10, 0);
 
-        Instantiate(enemies[randomEnemy], spawnPos, Quaternion.identity);
-    }
-
-
-
-    private float randomFloat(float min, float max)
-    {
-        return Random.Range(min, max);
+        Instantiate(enemies[randomEnemy], spawnPos, Quaternion.identity, this.transform);
     }
 
     private int randomInt(int min, int max)
