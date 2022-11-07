@@ -502,6 +502,7 @@ MonoBehaviour:
   - {fileID: 8823509448746261974, guid: 41e3a8280426fbf418285d219cc6efe7, type: 3}
   - {fileID: 7075550350625881999, guid: 4bc5720496cf72c429ae8dd9cf86b0be, type: 3}
   - {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+  - {fileID: 8325533333933176081, guid: 146d1d2c1bcb4a64b85cd15fb5f184b1, type: 3}
   delay: 5
 --- !u!1 &1596554728
 GameObject:

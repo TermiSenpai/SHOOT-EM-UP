@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8325533333933176082}
   m_Layer: 0
-  m_Name: LongWave
+  m_Name: ShortWave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,7 +101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: amplitude
-      value: 4
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: frequency
@@ -195,7 +195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: amplitude
-      value: 4
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: frequency
@@ -277,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: amplitude
-      value: 4
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: frequency
@@ -359,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: amplitude
-      value: 4
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: frequency
@@ -441,7 +441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: amplitude
-      value: 4
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3191586476085094992, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: frequency
