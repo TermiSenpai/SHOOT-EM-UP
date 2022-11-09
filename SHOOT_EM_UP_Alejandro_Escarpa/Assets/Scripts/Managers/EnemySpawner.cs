@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] enemies;
-    public int enemiesCount;
+    public int enemiesCount = 0;
     Vector2 spawnPos;
     bool canSpawnEnemies;
 
@@ -14,7 +14,6 @@ public class EnemySpawner : MonoBehaviour
     {
         canSpawnEnemies = true;
         spawnPos = transform.position;
-        Invoke("SpawnEnemies", 0);
     }
 
     private void Update()
