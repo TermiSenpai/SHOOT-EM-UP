@@ -26,6 +26,27 @@ public class GameManager : MonoBehaviour
         mouse.MouseVisible();
         SavePoints();
         gameOverMenu.SetActive(true);
+        DestroyEnemies();
+        DestroyLasers();
+    }
+
+    private void DestroyEnemies()
+    {
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+
+        foreach(GameObject enemy in enemies)
+        {
+            Destroy(enemy);
+        }
+    }
+    private void DestroyLasers()
+    {
+        GameObject[] lasers = GameObject.FindGameObjectsWithTag("Laser");
+
+        foreach(GameObject laser in lasers)
+        {
+            Destroy(laser);
+        }
     }
 
     #region Player
@@ -60,6 +81,11 @@ public class GameManager : MonoBehaviour
     public void IncreasePoints(int value)
     {
         points.IncreasePoints(value);
+    }
+
+    public int GetRoundPoints()
+    {
+        return points.GetPoints();
     }
     #endregion
 

@@ -16,10 +16,10 @@ public class EnemyMove : MonoBehaviour
 
     private void Start()
     {
-        fxPlayer = GameObject.FindGameObjectWithTag("HitsParent").GetComponent<FXPlayer>();
-        spawner = GameObject.FindGameObjectWithTag("EnemyParent").GetComponent<EnemySpawner>();
         try
         {
+            fxPlayer = GameObject.FindGameObjectWithTag("HitsParent").GetComponent<FXPlayer>();
+            spawner = GameObject.FindGameObjectWithTag("EnemyParent").GetComponent<EnemySpawner>();
             playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
         }
         catch
@@ -45,6 +45,15 @@ public class EnemyMove : MonoBehaviour
 
         fxPlayer.InstantiateSpriteFx(explosion, collision.GetContact(0).point);
         Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        try
+        {
+            spawner.enemiesCount--;
+        }
+        catch { }
     }
 
 }

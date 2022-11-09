@@ -1394,7 +1394,8 @@ MonoBehaviour:
   - {fileID: 7075550350625881999, guid: 4bc5720496cf72c429ae8dd9cf86b0be, type: 3}
   - {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
   - {fileID: 8325533333933176081, guid: 146d1d2c1bcb4a64b85cd15fb5f184b1, type: 3}
-  delay: 5
+  - {fileID: 2186823651211438293, guid: 5c0d806beef5dbc4ca2c296b7321f24e, type: 3}
+  enemiesCount: 0
 --- !u!1 &1495595976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,6 +1473,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1538697175}
   - component: {fileID: 1538697177}
+  - component: {fileID: 1538697178}
   - component: {fileID: 1538697176}
   m_Layer: 5
   m_Name: Points
@@ -1597,6 +1599,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1538697174}
   m_CullTransparentMesh: 1
+--- !u!114 &1538697178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1538697174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e75c9fbdce5e4594aa9087b24b82da4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manager: {fileID: 1974065869}
+  speed: 1000
+  pointsTxt: {fileID: 1538697176}
 --- !u!1 &1558007406
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,6 +2280,7 @@ GameObject:
   - component: {fileID: 1974065868}
   - component: {fileID: 1974065869}
   - component: {fileID: 1974065870}
+  - component: {fileID: 1974065871}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: GameController
@@ -2299,6 +2317,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameOverMenu: {fileID: 520337275}
   mouse: {fileID: 279770257}
+  points: {fileID: 1974065871}
 --- !u!114 &1974065870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2311,6 +2330,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: affe7b5400241354896bb3c7e2e34bd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1974065871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1974065867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ad7b94aeaf1fe4abe3bc0d3b9d3365, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentPlayerPoints: 0
+  RoundPoints: 1000
+  canGetPoints: 1
 --- !u!1 &2093404083
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] enemies;
-    [SerializeField] float delay;
+    public int enemiesCount;
     Vector2 spawnPos;
     bool canSpawnEnemies;
 
@@ -14,7 +14,15 @@ public class EnemySpawner : MonoBehaviour
     {
         canSpawnEnemies = true;
         spawnPos = transform.position;
-        InvokeRepeating("SpawnEnemies", 0, delay);
+        Invoke("SpawnEnemies", 0);
+    }
+
+    private void Update()
+    {
+        if(enemiesCount <= 0)
+        {
+            SpawnEnemies();
+        }
     }
 
     private void SpawnEnemies()
@@ -25,6 +33,8 @@ public class EnemySpawner : MonoBehaviour
 
             Instantiate(enemies[randomEnemy], spawnPos, Quaternion.identity, this.transform);
         }
+
+        enemiesCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
     }
 
     private int randomInt(int min, int max)
