@@ -11,7 +11,7 @@ public class UIHealth : MonoBehaviour
 
     private void Start()
     {
-        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();        
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
 
     public void loseHealth()
@@ -25,12 +25,12 @@ public class UIHealth : MonoBehaviour
     {
         int hp = playerHealth();
 
-        hearths[hp].SetActive(true);
+        hearths[hp - 1].SetActive(true);
     }
 
     public void recoverFullHealth()
     {
-        foreach(GameObject hearth in hearths)
+        foreach (GameObject hearth in hearths)
         {
             hearth.SetActive(true);
         }

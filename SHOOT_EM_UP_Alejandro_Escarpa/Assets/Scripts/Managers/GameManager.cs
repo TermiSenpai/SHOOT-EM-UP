@@ -9,8 +9,12 @@ public class GameManager : MonoBehaviour
     [SerializeField] GameObject gameOverMenu;
     [SerializeField] MouseVisibility mouse;
 
+    [SerializeField] PointsManager points;
+
     private UIHealth uiHealth;
     private PlayerHealth playerHealth;
+
+
     private void Start()
     {
         uiHealth = GameObject.FindGameObjectWithTag("UIHealth").GetComponent<UIHealth>();
@@ -20,9 +24,11 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         mouse.MouseVisible();
+        SavePoints();
         gameOverMenu.SetActive(true);
     }
 
+    #region Player
     public int GetPlayerHealth()
     {
         return playerHealth.GetHealth();
@@ -43,4 +49,31 @@ public class GameManager : MonoBehaviour
         uiHealth.recoverFullHealth();
     }
 
+    #endregion
+
+    #region Points
+    public void SetCanGetPoints(bool value)
+    {
+        points.SetCanGetPoints(value);
+    }
+
+    public void IncreasePoints(int value)
+    {
+        points.IncreasePoints(value);
+    }
+    #endregion
+
+    #region Data
+
+    public void SavePoints()
+    {
+        int currentPlayerPoints = points.GetCurrentPlayerPoints();
+        int roundPoints = points.GetPoints();
+
+        currentPlayerPoints += roundPoints;
+
+        PlayerPrefs.SetInt("Points", currentPlayerPoints);
+    }
+
+    #endregion
 }

@@ -36,6 +36,7 @@ public class PlayerHealth : MonoBehaviour
         if (health <= 0)
         {
             manager.GameOver();
+            manager.SetCanGetPoints(false);
             Destroy(gameObject);
         }
     }
