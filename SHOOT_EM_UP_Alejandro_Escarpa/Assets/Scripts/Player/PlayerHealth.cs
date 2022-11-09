@@ -4,26 +4,74 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    #region variables
     int health;
     [SerializeField] int maxHealth;
+    [SerializeField] float invulnerabilityTime;
+    [SerializeField] bool canReciveDamage;
+    private GameManager manager;
+    #endregion
+
+    #region Unity Methods
 
     private void Start()
     {
+        manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        canReciveDamage = true;
         health = maxHealth;
     }
+    #endregion
 
+    #region private methods
     private void CheckHealth()
     {
         if (health <= 0)
         {
+            manager.GameOver();
             Destroy(gameObject);
         }
     }
+    #endregion
 
+    #region public methods
     public void loseHealth()
     {
-        health--;
+        if (canReciveDamage && health >= 1)
+        {
+            health--;
+            manager.loseHealth();
+            StartCoroutine(Invulnerable());
+        }
         CheckHealth();
     }
 
+    public void RecoverHealth(int value)
+    {
+        health += value;
+        if (health > maxHealth)
+            health = maxHealth;
+        manager.RecoverHealth();
+    }
+
+    public void RecoverFullHealth()
+    {
+        health = maxHealth;
+        manager.RecoverFullHealth();
+    }
+
+    public int GetHealth()
+    {
+        return health;
+    }
+
+    #endregion
+
+    #region enumerators
+    IEnumerator Invulnerable()
+    {
+        canReciveDamage = false;
+        yield return new WaitForSeconds(invulnerabilityTime);
+        canReciveDamage = true;
+    }
+    #endregion
 }
