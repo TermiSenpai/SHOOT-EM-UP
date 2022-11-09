@@ -5,15 +5,15 @@ using UnityEngine;
 public class LaserHits : MonoBehaviour
 {
     [SerializeField] private ParticleSystem hitFbx;
-    GameObject hitParent;
+    FXPlayer fxPlayer;
     private void Start()
     {
-        hitParent = GameObject.FindGameObjectWithTag("HitsParent");
+        fxPlayer = GameObject.FindGameObjectWithTag("HitsParent").GetComponent<FXPlayer>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Instantiate(hitFbx, collision.GetContact(0).point, Quaternion.identity, hitParent.transform);
+        fxPlayer.InstantiateParticleFx(hitFbx, collision.GetContact(0).point);
 
         Destroy(gameObject);
     }

@@ -20,6 +20,14 @@ public class PlayerHealth : MonoBehaviour
         canReciveDamage = true;
         health = maxHealth;
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Laser"))
+        {
+            loseHealth();
+        }
+    }
     #endregion
 
     #region private methods

@@ -11,8 +11,12 @@ public class EnemyMove : MonoBehaviour
     PlayerHealth playerHealth;
     EnemySpawner spawner;
 
+    FXPlayer fxPlayer;
+    [SerializeField] GameObject explosion;
+
     private void Start()
     {
+        fxPlayer = GameObject.FindGameObjectWithTag("HitsParent").GetComponent<FXPlayer>();
         spawner = GameObject.FindGameObjectWithTag("EnemyParent").GetComponent<EnemySpawner>();
         try
         {
@@ -23,6 +27,7 @@ public class EnemyMove : MonoBehaviour
             spawner.SetCanSpawnEnemies(false);
             Destroy(transform.parent.gameObject);
         }
+
         Destroy(transform.parent.gameObject, lifeTime);
     }
 
@@ -38,11 +43,8 @@ public class EnemyMove : MonoBehaviour
             playerHealth.loseHealth();
         }
 
+        fxPlayer.InstantiateSpriteFx(explosion, collision.GetContact(0).point);
         Destroy(gameObject);
     }
 
-    private void OnDestroy()
-    {
-
-    }
 }
