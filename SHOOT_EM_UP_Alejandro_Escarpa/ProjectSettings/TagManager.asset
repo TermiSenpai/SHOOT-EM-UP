@@ -9,6 +9,7 @@ TagManager:
   - HitsParent
   - LaserParents
   - EnemyParent
+  - UIHealth
   layers:
   - Default
   - TransparentFX
