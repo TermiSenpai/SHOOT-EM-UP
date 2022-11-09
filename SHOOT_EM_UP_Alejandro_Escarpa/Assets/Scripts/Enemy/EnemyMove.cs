@@ -53,7 +53,10 @@ public class EnemyMove : MonoBehaviour
         {
             spawner.enemiesCount--;
         }
-        catch { }
+        catch
+        {
+            //debug
+        }
     }
 
 }
