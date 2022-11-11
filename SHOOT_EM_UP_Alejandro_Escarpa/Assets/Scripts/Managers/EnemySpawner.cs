@@ -5,9 +5,12 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private GameObject[] enemies;
+    [SerializeField] private GameObject boss;
     public int enemiesCount = 0;
     Vector2 spawnPos;
     bool canSpawnEnemies;
+
+    public int round = 1;
 
 
     private void Start()
@@ -20,6 +23,7 @@ public class EnemySpawner : MonoBehaviour
     {
         if(enemiesCount <= 0)
         {
+            round++;
             SpawnEnemies();
         }
     }
@@ -30,7 +34,12 @@ public class EnemySpawner : MonoBehaviour
         {
             int randomEnemy = randomInt(0, enemies.Length);
 
-            Instantiate(enemies[randomEnemy], spawnPos, Quaternion.identity, this.transform);
+            Instantiate(enemies[randomEnemy], spawnPos, Quaternion.identity, transform);
+        }
+
+        if(canSpawnEnemies && round == 15)
+        {
+            Instantiate(boss, spawnPos, Quaternion.identity, transform);
         }
 
         enemiesCount = GameObject.FindGameObjectsWithTag("Enemy").Length;

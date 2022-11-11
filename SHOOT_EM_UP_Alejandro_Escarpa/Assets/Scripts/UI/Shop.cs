@@ -6,6 +6,7 @@ using TMPro;
 
 public class Shop : MonoBehaviour
 {
+    [SerializeField] PurchaseManager purchase;
     [SerializeField] TextMeshProUGUI pointsTxt;
     int playerPoints;
 
@@ -18,9 +19,11 @@ public class Shop : MonoBehaviour
     public void buySomething(int price)
     {
 
+        getTotalPoints();
         if (playerPoints >= price)
         {
             playerPoints -= price;
+            purchase.Purchased();
         }
         savePoints();
         updateTxt();

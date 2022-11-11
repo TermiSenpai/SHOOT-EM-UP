@@ -17,6 +17,7 @@ public class PointsToUI : MonoBehaviour
     private void Start()
     {
         roundPoints = manager.GetRoundPoints();
+        speed = roundPoints / 3;
     }
 
     private void Update()
