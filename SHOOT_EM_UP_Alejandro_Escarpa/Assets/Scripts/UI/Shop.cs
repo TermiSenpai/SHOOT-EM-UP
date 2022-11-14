@@ -23,7 +23,7 @@ public class Shop : MonoBehaviour
         if (playerPoints >= price)
         {
             playerPoints -= price;
-            purchase.Purchased();
+            //purchase.Purchased();
         }
         savePoints();
         updateTxt();
