@@ -5,13 +5,15 @@ using UnityEngine;
 public class EnemyBossHp : MonoBehaviour
 {
     private EnemySpawner spawner;
+    private FXPlayer fx;
 
     [SerializeField] private int HP;
 
     [Space]
-    
+
     [SerializeField] private bool canGetDamage = true;
     [SerializeField] private float invulnerabilityTime;
+    [SerializeField] private GameObject explosion;
 
     [Space]
 
@@ -23,6 +25,7 @@ public class EnemyBossHp : MonoBehaviour
 
     private void Start()
     {
+        fx = FindObjectOfType<FXPlayer>();
         spawner = FindObjectOfType<EnemySpawner>();
     }
 
@@ -69,8 +72,9 @@ public class EnemyBossHp : MonoBehaviour
 
     private void BossDefeated()
     {
-            spawner.enemiesCount--;
-            Destroy(gameObject);
+        fx.InstantiateSpriteFx(explosion, transform.position);
+        spawner.enemiesCount--;
+        Destroy(gameObject);
 
     }
 
