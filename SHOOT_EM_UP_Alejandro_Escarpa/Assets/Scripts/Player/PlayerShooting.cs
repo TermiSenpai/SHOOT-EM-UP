@@ -37,4 +37,14 @@ public class PlayerShooting : MonoBehaviour
         yield return new WaitForSeconds(delay);
         canShoot = true;
     }
+
+    public bool GetCanShoot()
+    {
+        return canShoot;
+    }
+
+    public void SetCanShoot(bool value)
+    {
+        canShoot = value;
+    }
 }
