@@ -10,12 +10,14 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] float invulnerabilityTime;
     [SerializeField] bool canReciveDamage;
     private GameManager manager;
+    private SpriteRenderer spriteRenderer;
     #endregion
 
     #region Unity Methods
 
     private void Start()
     {
+        spriteRenderer= GetComponent<SpriteRenderer>();
         manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         canReciveDamage = true;
         health = maxHealth;
@@ -49,6 +51,7 @@ public class PlayerHealth : MonoBehaviour
         {
             health--;
             manager.loseHealth();
+            StartCoroutine(IChangeColor());
             StartCoroutine(Invulnerable());
         }
         CheckHealth();
@@ -81,6 +84,13 @@ public class PlayerHealth : MonoBehaviour
         canReciveDamage = false;
         yield return new WaitForSeconds(invulnerabilityTime);
         canReciveDamage = true;
+    }
+
+    IEnumerator IChangeColor()
+    {
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(invulnerabilityTime);
+        spriteRenderer.color = Color.white;
     }
     #endregion
 }
