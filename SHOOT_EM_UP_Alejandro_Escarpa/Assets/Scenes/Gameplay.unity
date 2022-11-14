@@ -1841,7 +1841,7 @@ MonoBehaviour:
   - {fileID: 534434884082429462, guid: ba8b87e524ee68f4397194bca549d476, type: 3}
   boss: {fileID: 5276463451518880000, guid: ac1628b951f947942a9d7ce85e918254, type: 3}
   enemiesCount: 0
-  round: 14
+  round: 0
 --- !u!1 &1455121114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1869,7 +1869,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 5f5abc6be389adb4eb9ca44464173e0d, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
