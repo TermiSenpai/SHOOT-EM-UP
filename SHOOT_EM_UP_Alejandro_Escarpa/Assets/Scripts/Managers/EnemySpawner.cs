@@ -37,9 +37,11 @@ public class EnemySpawner : MonoBehaviour
             Instantiate(enemies[randomEnemy], spawnPos, Quaternion.identity, transform);
         }
 
-        if(canSpawnEnemies && round == 15)
+        float boosRound = round % 15;
+
+        if(canSpawnEnemies && boosRound == 0 )
         {
-            Instantiate(boss, spawnPos, Quaternion.identity, transform);
+            Instantiate(boss, spawnPos, Quaternion.Euler(0,0,-90), transform);
         }
 
         enemiesCount = GameObject.FindGameObjectsWithTag("Enemy").Length;
