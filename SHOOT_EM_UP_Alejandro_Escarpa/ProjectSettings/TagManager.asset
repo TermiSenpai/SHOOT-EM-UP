@@ -59,6 +59,9 @@ TagManager:
   - name: PlanetaLejano
     uniqueID: 3612298223
     locked: 0
+  - name: Nebulosa
+    uniqueID: 3533095101
+    locked: 0
   - name: PlanetaMid
     uniqueID: 476275461
     locked: 0
