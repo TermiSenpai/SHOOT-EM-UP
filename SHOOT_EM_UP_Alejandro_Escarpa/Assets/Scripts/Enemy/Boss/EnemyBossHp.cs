@@ -31,10 +31,13 @@ public class EnemyBossHp : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        HP--;
-        StartCoroutine(invulnerability());
-        StartCoroutine(ChangeColor());
-        CheckHP();
+        if (canGetDamage)
+        {
+            HP--;
+            StartCoroutine(invulnerability());
+            StartCoroutine(ChangeColor());
+            CheckHP();
+        }
     }
 
     private IEnumerator invulnerability()
