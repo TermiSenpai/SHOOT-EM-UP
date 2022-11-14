@@ -56,6 +56,18 @@ TagManager:
   - name: Background
     uniqueID: 3945430521
     locked: 0
+  - name: PlanetaLejano
+    uniqueID: 3612298223
+    locked: 0
+  - name: PlanetaMid
+    uniqueID: 476275461
+    locked: 0
+  - name: PlanetaCerca
+    uniqueID: 2602059575
+    locked: 0
+  - name: PlanetaMuyCerca
+    uniqueID: 186670745
+    locked: 0
   - name: Laser
     uniqueID: 1170610795
     locked: 0
