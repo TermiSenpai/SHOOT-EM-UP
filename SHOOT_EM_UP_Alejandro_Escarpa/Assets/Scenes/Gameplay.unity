@@ -1835,6 +1835,8 @@ MonoBehaviour:
   - {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
   - {fileID: 8325533333933176081, guid: 146d1d2c1bcb4a64b85cd15fb5f184b1, type: 3}
   - {fileID: 2186823651211438293, guid: 5c0d806beef5dbc4ca2c296b7321f24e, type: 3}
+  - {fileID: 6772488038835216288, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
+  - {fileID: 534434884082429462, guid: ba8b87e524ee68f4397194bca549d476, type: 3}
   boss: {fileID: 5276463451518880000, guid: ac1628b951f947942a9d7ce85e918254, type: 3}
   enemiesCount: 0
   round: 0
