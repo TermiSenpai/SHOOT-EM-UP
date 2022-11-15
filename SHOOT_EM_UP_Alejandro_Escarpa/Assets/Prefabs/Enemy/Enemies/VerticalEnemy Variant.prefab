@@ -13,7 +13,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
-      value: VerticalEnemy
+      value: VerticalEnemy Variant
       objectReference: {fileID: 0}
     - target: {fileID: 2039417035130659908, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_RootOrder
@@ -69,11 +69,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: speed
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: lifeTime
-      value: 2
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6283310960682515050, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: direction.x
