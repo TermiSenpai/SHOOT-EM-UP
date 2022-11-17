@@ -2,6 +2,10 @@
 
 public class BombPowerUp : PowerUp
 {
+    private void Start()
+    {
+        source = GameObject.FindGameObjectWithTag("PowerUpSpawner").GetComponent<AudioSource>();
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

@@ -6,7 +6,6 @@ public class PowerUpSpawner : MonoBehaviour
 {
     [SerializeField] private float delay;
     [SerializeField] private float posY;
-    [SerializeField] private AudioSource source;
     [SerializeField] private GameObject[] powerUps;
 
     private void Start()

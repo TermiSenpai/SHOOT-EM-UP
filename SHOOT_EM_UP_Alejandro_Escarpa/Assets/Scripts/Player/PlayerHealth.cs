@@ -9,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] int maxHealth;
     [SerializeField] float invulnerabilityTime;
     [SerializeField] bool canReciveDamage;
+    [SerializeField] GameObject invulnerabilityShield;
     private GameManager manager;
     private SpriteRenderer spriteRenderer;
     #endregion
@@ -17,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void Start()
     {
+        invulnerabilityShield.SetActive(false);
         spriteRenderer= GetComponent<SpriteRenderer>();
         manager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         canReciveDamage = true;
@@ -86,10 +88,12 @@ public class PlayerHealth : MonoBehaviour
         yield return new WaitForSeconds(invulnerabilityTime);
         canReciveDamage = true;
     }
-    IEnumerator Invulnerable(float time)
+    public IEnumerator Invulnerable(float time)
     {
         canReciveDamage = false;
+        invulnerabilityShield.SetActive(true);
         yield return new WaitForSeconds(time);
+        invulnerabilityShield.SetActive(false);
         canReciveDamage = true;
     }
 

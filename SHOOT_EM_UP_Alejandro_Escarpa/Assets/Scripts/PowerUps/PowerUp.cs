@@ -6,10 +6,7 @@ public class PowerUp : MonoBehaviour
 {
     public AudioClip audioClip;
 
+    [HideInInspector]
     public AudioSource source;
 
-    private void Start()
-    {
-        source = GameObject.FindGameObjectWithTag("PowerUpSpawner").GetComponent<AudioSource>();
-    }
 }
