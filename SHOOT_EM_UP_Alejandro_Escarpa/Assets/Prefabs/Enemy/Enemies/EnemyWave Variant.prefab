@@ -29,7 +29,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8325533333933176081, guid: 1603049b7a8bac24bafc53ff90eddca7, type: 3}
       propertyPath: m_Name
-      value: EnemyWave
+      value: EnemyWave Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8325533333933176081, guid: 1603049b7a8bac24bafc53ff90eddca7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8325533333933176082, guid: 1603049b7a8bac24bafc53ff90eddca7, type: 3}
       propertyPath: m_RootOrder

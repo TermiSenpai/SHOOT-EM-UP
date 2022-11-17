@@ -43,8 +43,13 @@ public class EnemyMove : MonoBehaviour
             playerHealth.loseHealth();
         }
 
-        fxPlayer.InstantiateSpriteFx(explosion, collision.GetContact(0).point);
+        Fx(collision.GetContact(0).point);
         Destroy(gameObject);
+    }
+
+    public void Fx(Vector2 collision)
+    {
+        fxPlayer.InstantiateSpriteFx(explosion, collision);
     }
 
     private void OnDestroy()

@@ -10,6 +10,8 @@ TagManager:
   - LaserParents
   - EnemyParent
   - UIHealth
+  - PowerUpSpawner
+  - EnemyBoss
   layers:
   - Default
   - TransparentFX
@@ -22,7 +24,7 @@ TagManager:
   - Player
   - Enemy
   - PostProcesing
-  - 
+  - PowerUp
   - 
   - 
   - 
@@ -76,6 +78,9 @@ TagManager:
     locked: 0
   - name: FX
     uniqueID: 576397177
+    locked: 0
+  - name: PowerUp
+    uniqueID: 2989983267
     locked: 0
   - name: Enemy
     uniqueID: 2996319205

@@ -44,6 +44,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ShortWave
       objectReference: {fileID: 0}
+    - target: {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 8325533333933176082, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -265,6 +269,10 @@ PrefabInstance:
     - target: {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: m_Name
       value: ShortWave (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 8325533333933176082, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: m_RootOrder

@@ -20,31 +20,34 @@ public class BossMove : MonoBehaviour
 
     private void Update()
     {
-        if(transform.position.x == maxXPos)
+        if (transform.position.x == maxXPos)
         {
             isInMaxXPos = true;
         }
         else
         {
-            isInMaxXPos= false;
+            isInMaxXPos = false;
         }
     }
 
     private void FixedUpdate()
     {
-        if(transform.position.x >= maxXPos && !isInMaxXPos)
+        if (transform.position.x >= maxXPos && !isInMaxXPos)
         {
             transform.Translate(Vector2.left * Time.fixedDeltaTime * speed, Space.World);
         }
 
-        if(target.position.y > transform.position.y)
+        if (target != null)
         {
-            transform.Translate(Vector2.up * Time.fixedDeltaTime * speed, Space.World) ;
+            if (target.position.y > transform.position.y)
+            {
+                transform.Translate(Vector2.up * Time.fixedDeltaTime * speed, Space.World);
+            }
+            if (target.position.y < transform.position.y)
+            {
+                transform.Translate(Vector2.down * Time.fixedDeltaTime * speed, Space.World);
+            }
         }
-        if(target.position.y < transform.position.y)
-        {
-            transform.Translate(Vector2.down * Time.fixedDeltaTime * speed, Space.World) ;
-        }
-        
+
     }
 }

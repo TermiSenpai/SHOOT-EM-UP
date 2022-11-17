@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] GameObject gameOverMenu;
     [SerializeField] MouseVisibility mouse;
+    [SerializeField] PowerUpSpawner powerSpawner;
 
     [SerializeField] PointsManager points;
 
@@ -29,6 +30,7 @@ public class GameManager : MonoBehaviour
         gameOverMenu.SetActive(true);
         DestroyEnemies();
         DestroyLasers();
+        powerSpawner.StopAllCoroutines();
     }
 
     private void DestroyEnemies()
