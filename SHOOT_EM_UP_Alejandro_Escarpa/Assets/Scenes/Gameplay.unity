@@ -1312,7 +1312,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7499a57021c5f7e47bd3754c9b889b63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  delay: 1
+  delay: 15
   posY: 4.5
   source: {fileID: 371805154}
   powerUps:
