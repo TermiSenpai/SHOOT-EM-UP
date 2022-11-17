@@ -2,12 +2,6 @@
 
 public class BombPowerUp : PowerUp
 {
-    AudioSource source;
-
-    private void Start()
-    {
-        source = GameObject.FindGameObjectWithTag("PowerUpSpawner").GetComponent<AudioSource>();
-    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -21,7 +15,6 @@ public class BombPowerUp : PowerUp
             {
                 enemyMove.Fx(enemy.transform.position);
                 Destroy(enemy);
-
             }
         }
 

@@ -1317,6 +1317,7 @@ MonoBehaviour:
   source: {fileID: 371805154}
   powerUps:
   - {fileID: 2287659513331816121, guid: 2c4a3d2e68bb3db45b6b24a442e4d370, type: 3}
+  - {fileID: 6638124183295543723, guid: a155707e7e96a6c44aa7eab94accc776, type: 3}
 --- !u!82 &371805154
 AudioSource:
   m_ObjectHideFlags: 0

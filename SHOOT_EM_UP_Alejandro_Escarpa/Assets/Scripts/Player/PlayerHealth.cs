@@ -79,10 +79,17 @@ public class PlayerHealth : MonoBehaviour
     #endregion
 
     #region enumerators
+
     IEnumerator Invulnerable()
     {
         canReciveDamage = false;
         yield return new WaitForSeconds(invulnerabilityTime);
+        canReciveDamage = true;
+    }
+    IEnumerator Invulnerable(float time)
+    {
+        canReciveDamage = false;
+        yield return new WaitForSeconds(time);
         canReciveDamage = true;
     }
 
