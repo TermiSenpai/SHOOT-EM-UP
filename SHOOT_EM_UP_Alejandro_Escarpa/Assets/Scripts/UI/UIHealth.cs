@@ -40,4 +40,17 @@ public class UIHealth : MonoBehaviour
     {
         return manager.GetPlayerHealth();
     }
+
+    public IEnumerator InvulnerabilityHealth(float time)
+    {
+        foreach (GameObject hearth in hearths)
+            hearth.GetComponent<Image>().color = Color.yellow;
+
+        yield return new WaitForSeconds(time);
+
+        foreach (GameObject hearth in hearths)
+            hearth.GetComponent<Image>().color = Color.white;
+
+
+    }
 }

@@ -73,6 +73,12 @@ public class GameManager : MonoBehaviour
         uiHealth.recoverFullHealth();
     }
 
+    public void ActiveInvulnerability(float time)
+    {
+        playerHealth.StartCoroutine(playerHealth.Invulnerable(time));
+        uiHealth.StartCoroutine(uiHealth.InvulnerabilityHealth(time));
+    }
+
     #endregion
 
     #region Points
