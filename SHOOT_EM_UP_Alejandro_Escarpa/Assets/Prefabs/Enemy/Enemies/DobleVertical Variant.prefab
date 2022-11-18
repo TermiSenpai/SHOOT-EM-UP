@@ -57,7 +57,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
       propertyPath: lifeTime
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
       propertyPath: direction.y
@@ -122,7 +122,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
       propertyPath: lifeTime
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
       propertyPath: direction.y
@@ -139,11 +139,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2292070310544692696, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: lifeTime
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2292070311479512644, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: lifeTime
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6772488038835216288, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: m_Name
@@ -199,7 +199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8526224626808672249, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: lifeTime
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
