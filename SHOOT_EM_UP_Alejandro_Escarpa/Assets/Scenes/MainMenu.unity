@@ -5165,7 +5165,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Shoot em up
+  m_text: Space survival
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5d5ed71fa605436489fc0181b9773596, type: 2}
   m_sharedMaterial: {fileID: -7035952007414572181, guid: 5d5ed71fa605436489fc0181b9773596, type: 2}
