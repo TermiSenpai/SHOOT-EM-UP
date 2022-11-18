@@ -128,8 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 8
-  maxX: 6
-  minX: -6.5
+  maxX: 7.5
+  minX: -8
   maxY: 4.25
   minY: -4.25
 --- !u!114 &3865711060424291559
