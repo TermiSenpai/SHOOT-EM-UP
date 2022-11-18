@@ -175,7 +175,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5255a17b390880740beaef8324f56515, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 6.5
+  speed: 8
   direction: {x: -1, y: 0, z: 0}
   lifeTime: 8
   explosion: {fileID: 4699545315990208702, guid: 228e1cb7e5f52914f8218ee19336c556, type: 3}

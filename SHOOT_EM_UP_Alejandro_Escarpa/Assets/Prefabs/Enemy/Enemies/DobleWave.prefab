@@ -42,23 +42,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2272219439980002628, guid: 41e3a8280426fbf418285d219cc6efe7, type: 3}
       propertyPath: speed
-      value: 6.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3261073556354615762, guid: 41e3a8280426fbf418285d219cc6efe7, type: 3}
       propertyPath: speed
-      value: 6.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3261073556447009686, guid: 41e3a8280426fbf418285d219cc6efe7, type: 3}
       propertyPath: speed
-      value: 6.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3261073556603774140, guid: 41e3a8280426fbf418285d219cc6efe7, type: 3}
       propertyPath: speed
-      value: 6.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3261073557319103859, guid: 41e3a8280426fbf418285d219cc6efe7, type: 3}
       propertyPath: speed
-      value: 6.5
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 8823509448746261973, guid: 41e3a8280426fbf418285d219cc6efe7, type: 3}
       propertyPath: m_RootOrder

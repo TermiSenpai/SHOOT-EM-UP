@@ -40,6 +40,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2186823651211438292}
     m_Modifications:
+    - target: {fileID: 1617303429102622083, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131358970994100, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131360940018811, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131361026384149, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131361049604945, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: m_Name
       value: ShortWave
@@ -123,6 +143,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 9aedb87943303334f8977b4dfc2e3d37, type: 3}
     - target: {fileID: 1617303429102622083, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1617303429102622083, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: direction.x
       value: 1
       objectReference: {fileID: 0}
@@ -131,16 +155,32 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 9aedb87943303334f8977b4dfc2e3d37, type: 3}
     - target: {fileID: 2646131358970994100, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131358970994100, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: direction.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131360940018811, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2646131360940018811, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: direction.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2646131361026384149, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131361026384149, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: direction.x
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2646131361049604945, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: speed
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2646131361049604945, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: direction.x
