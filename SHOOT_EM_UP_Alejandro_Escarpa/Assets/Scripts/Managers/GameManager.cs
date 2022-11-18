@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+
         uiHealth = GameObject.FindGameObjectWithTag("UIHealth").GetComponent<UIHealth>();
         playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
     }
@@ -31,6 +32,9 @@ public class GameManager : MonoBehaviour
         DestroyEnemies();
         DestroyLasers();
         powerSpawner.StopAllCoroutines();
+
+        if(PlayerPrefs.GetInt("Record", 0) < points.GetPoints())
+            PlayerPrefs.SetInt("Record", points.GetPoints());
     }
 
     private void DestroyEnemies()
