@@ -80,6 +80,26 @@ PrefabInstance:
       propertyPath: lifeTime
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6331792293281006048, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284054659179026456, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284054659294262646, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284054659321112370, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284054659386313175, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 8325533333933176081, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: m_Name
       value: ShortWave
@@ -227,6 +247,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6331792293281006048, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 6331792293281006048, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 1946103656091579875, guid: b2f01fef6a0b1d14786c8b808cc7a7e6, type: 3}
@@ -251,17 +275,33 @@ PrefabInstance:
       value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 7284054659179026456, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284054659179026456, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 1946103656091579875, guid: b2f01fef6a0b1d14786c8b808cc7a7e6, type: 3}
+    - target: {fileID: 7284054659294262646, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7284054659294262646, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 1946103656091579875, guid: b2f01fef6a0b1d14786c8b808cc7a7e6, type: 3}
     - target: {fileID: 7284054659321112370, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 7284054659321112370, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: laserPrefab
       value: 
       objectReference: {fileID: 1946103656091579875, guid: b2f01fef6a0b1d14786c8b808cc7a7e6, type: 3}
+    - target: {fileID: 7284054659386313175, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
+      propertyPath: delay
+      value: 1.25
+      objectReference: {fileID: 0}
     - target: {fileID: 7284054659386313175, guid: 75db84d229091e14e8645c412c9375b4, type: 3}
       propertyPath: laserPrefab
       value: 

@@ -45,7 +45,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: delay
-      value: 2
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
@@ -143,7 +143,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: delay
-      value: 2
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
@@ -229,7 +229,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: delay
-      value: 2
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
@@ -315,7 +315,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: delay
-      value: 2
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name
@@ -401,7 +401,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1629200710244527625, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: delay
-      value: 2
+      value: 1.25
       objectReference: {fileID: 0}
     - target: {fileID: 1923584809345623104, guid: 9e504041e5450be4bb1fb7cd614c3b19, type: 3}
       propertyPath: m_Name

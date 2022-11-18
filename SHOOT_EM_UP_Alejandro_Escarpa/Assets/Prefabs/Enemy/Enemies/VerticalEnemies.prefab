@@ -89,6 +89,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VerticalEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f81c26960259c8e489769e622e192fd3, type: 3}
 --- !u!4 &4408044252140212695 stripped
@@ -151,6 +155,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: VerticalEnemy (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f81c26960259c8e489769e622e192fd3, type: 3}
 --- !u!4 &6102563546039570538 stripped
@@ -212,6 +220,10 @@ PrefabInstance:
     - target: {fileID: 1130570661534637420, guid: f81c26960259c8e489769e622e192fd3, type: 3}
       propertyPath: m_Name
       value: VerticalEnemy (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f81c26960259c8e489769e622e192fd3, type: 3}

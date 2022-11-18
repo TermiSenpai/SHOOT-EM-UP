@@ -177,7 +177,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 8
   direction: {x: -1, y: 0, z: 0}
-  lifeTime: 8
+  lifeTime: 5
   explosion: {fileID: 4699545315990208702, guid: 228e1cb7e5f52914f8218ee19336c556, type: 3}
 --- !u!114 &3191586476085094992
 MonoBehaviour:
@@ -208,7 +208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   laserSpawnPos: {fileID: 8619917552402369091}
   laserPrefab: {fileID: 1946103656091579875, guid: 4e17bc06e75ffc847a2c99bed992a5a7, type: 3}
-  delay: 0
+  delay: 1.25
 --- !u!1 &8053034959620631975
 GameObject:
   m_ObjectHideFlags: 0

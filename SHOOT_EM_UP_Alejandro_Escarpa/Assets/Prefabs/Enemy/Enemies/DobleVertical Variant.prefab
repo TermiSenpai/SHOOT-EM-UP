@@ -56,6 +56,10 @@ PrefabInstance:
       value: InvertedVertical
       objectReference: {fileID: 0}
     - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
       propertyPath: lifeTime
       value: 3
       objectReference: {fileID: 0}
@@ -121,6 +125,10 @@ PrefabInstance:
       value: InvertedVertical (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 4770336960053936966, guid: f81c26960259c8e489769e622e192fd3, type: 3}
       propertyPath: lifeTime
       value: 3
       objectReference: {fileID: 0}
@@ -138,8 +146,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2292070310544692696, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
+      propertyPath: speed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2292070310544692696, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: lifeTime
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2292070311479512644, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2292070311479512644, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: lifeTime
@@ -196,6 +212,10 @@ PrefabInstance:
     - target: {fileID: 6772488038835216289, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526224626808672249, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8526224626808672249, guid: dc3ceee4e08c1d44fbd389fa58052a70, type: 3}
       propertyPath: lifeTime
